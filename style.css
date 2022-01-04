@@ -4,15 +4,20 @@ body{
     margin: 0%;
     text-align: justify;
 }
+h1{ 
+    font-size: 80px;
+}
 .name-color{
     color: red;
 }
-section{
+.flexible-continer{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-wieth{
     width: 50%;
     padding: 5%;
+  
 }
 .half-wieth img{
     width: 100%;
@@ -42,3 +47,29 @@ section{
     padding: 5%;
     display: flex;
 }
+.Experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px tomato;
+}
+.experienc-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-color{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(4, 252, 4), tomato);
+    border-image-slice: 1;
+
+}
+#border-color2{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 81, 128), rgb(255, 71, 71));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;}
